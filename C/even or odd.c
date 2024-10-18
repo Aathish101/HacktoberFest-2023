@@ -8,7 +8,7 @@ int main(void) {
 
   printf("enter an integer:\n");  // taking input from the user
   scanf("%d",&n);  // storing the user input in a variable
-  if(n%2==0) {  // checking wether the entered number gives 0 remainder when it is divided with 2
+  if(n%2==0) {  // checking whether the entered number gives 0 remainder when it is divided by 2
     printf("%d is an even number!\n",n);
   }
   else{
